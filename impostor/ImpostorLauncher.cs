@@ -56,7 +56,7 @@ namespace impostor
 
             else {
                 Impostor ventana = new Impostor(palabras,impostores,jugadores);
-                ventana.Show();
+                ventana.ShowDialog();
                     }
 
                 
