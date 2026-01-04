@@ -80,7 +80,7 @@ namespace impostor
              string palabra = palabras[index0];
              palabras.RemoveAt(index0);
             
-             for(int i = 0;  i < this.cantJug; i++) 
+             for(int i = 0;  i < this.cantJug-1; i++) 
              {
                  palabrasDeRonda.Add(palabra);
              }
